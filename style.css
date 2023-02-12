@@ -264,7 +264,15 @@ animation-iteration-count: infinite;
     padding-left: 1150px;
     width: 100px;
     height: 100px;
+    animation-name: sun;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
  }
+@keyframes sun{
+    100%{
+        transform: translate(-10%);
+    }
  .city{
       position: absolute;
      left: 0px;
